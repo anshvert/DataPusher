@@ -1,0 +1,16 @@
+{
+    "method": "PUT",
+    "url": "/destinations/destination_id_here",
+    "body": {
+        "account_id": "account_id_here",
+        "url": "https://webhook.site/new",
+        "http_method": "PUT",
+        "headers": {
+            "APP_ID": "1234APPID1234",
+            "APP_SECTET": "newsecret123",
+            "ACTION": "user.update",
+            "Content-Type": "application/json",
+            "Accept": "*"
+        }
+    }
+}

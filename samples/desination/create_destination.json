@@ -1,6 +1,6 @@
 {
     "method": "POST",
-    "url": "/destinations",
+    "url": "/destinations/create",
     "body": {
         "account_id": "account_id_here",
         "url": "https://webhook.site/test",

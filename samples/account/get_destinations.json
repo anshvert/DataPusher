@@ -1,0 +1,4 @@
+{
+    "method": "GET",
+    "url": "/accounts/account_id_here/destinations"
+}

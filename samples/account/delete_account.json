@@ -1,0 +1,4 @@
+{
+    "method": "DELETE",
+    "url": "/accounts/account_id_here"
+}

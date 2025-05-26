@@ -1,0 +1,9 @@
+{
+    "method": "PUT",
+    "url": "/accounts/account_id_here",
+    "body": {
+        "email": "newuser@example.com",
+        "account_name": "Updated Account",
+        "website": "https://newexample.com"
+    }
+}
