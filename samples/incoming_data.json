@@ -1,0 +1,10 @@
+{
+    "method": "POST",
+    "url": "/server/incoming_data",
+    "headers": {
+        "CL-X-TOKEN": "app_secret_token_here"
+    },
+    "body": {
+        "key": "value"
+    }
+}

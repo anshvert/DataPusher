@@ -6,7 +6,7 @@ const validate = require('../../middleware/validate');
 const router = express.Router();
 
 // Create Account
-router.post('/', validate(accountSchema), (req, res, next) => {
+router.post('/create', validate(accountSchema), (req, res, next) => {
     AccountService.createAccount(req.body, (err, account) => {
         if (err) return res.status(400).json({ error: 'Email already exists' });
         res.status(201).json(account);

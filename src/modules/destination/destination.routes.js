@@ -6,7 +6,7 @@ const validate = require('../../middleware/validate');
 const router = express.Router();
 
 // Create Destination
-router.post('/', validate(destinationSchema), (req, res, next) => {
+router.post('/create', validate(destinationSchema), (req, res, next) => {
     DestinationService.createDestination(req.body, (err, destination) => {
         if (err) return res.status(err.message === 'Account not found' ? 404 : 500).json({ error: err.message });
         res.status(201).json(destination);

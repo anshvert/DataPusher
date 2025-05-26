@@ -1,0 +1,9 @@
+{
+    "method": "POST",
+    "url": "/accounts",
+    "body": {
+        "email": "user@example.com",
+        "account_name": "Test Account",
+        "website": "https://example.com"
+    }
+}

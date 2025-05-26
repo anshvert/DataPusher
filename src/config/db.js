@@ -1,5 +1,5 @@
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database(':memory:'); // Replace with './database.db' for persistent storage
+const db = new sqlite3.Database('./database.db'); // Replace with './database.db' for persistent storage
 
 db.serialize(() => {
   db.run(`

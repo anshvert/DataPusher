@@ -1,0 +1,16 @@
+{
+    "method": "POST",
+    "url": "/destinations",
+    "body": {
+        "account_id": "account_id_here",
+        "url": "https://webhook.site/test",
+        "http_method": "POST",
+        "headers": {
+            "APP_ID": "1234APPID1234",
+            "APP_SECTET": "enwdj3bshwer43bjhjs9ereuinkjcnsiurew8s",
+            "ACTION": "user.update",
+            "Content-Type": "application/json",
+            "Accept": "*"
+        }
+    }
+}
